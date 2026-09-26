@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #a8a4a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.container  {
+    background-image: url('./background-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 90%;
+    min-height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card-center {
+     justify-content: center;
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(79, 92, 92);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.label1 {
+    font-family: sans-serif;    
+}
+
+.label2{
+    font-family: sans-serif;}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6 );
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa  {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
