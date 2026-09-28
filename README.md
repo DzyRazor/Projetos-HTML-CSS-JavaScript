@@ -8,4 +8,4 @@ Cada pasta contém os arquivos de um projeto e um README com informações sobre
 - [Move-Click](Move-Click/README.md): projeto interativo com um botão que foge do cursor.
 
 - 
-- ## Att; LeonardoS. - Obrigado!
+## Att; LeonardoS. - Obrigado!
